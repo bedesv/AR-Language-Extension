@@ -1,7 +1,7 @@
 {
     "name": "AR-Programming-Language",
     "displayName": "AR Programming Language",
-    "description": "ADTECH AR Programming Language",
+    "description": "ADTECH AR Programming Language extension. Should be used with the AR Programming Language Theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.62.0"
@@ -9,6 +9,14 @@
     "categories": [
         "Programming Languages"
     ],
+    "repository": {
+        "url": "https://github.com/bedesv/AR-Language-Theme",
+        "type": "git"
+    },
+    "author": {
+        "name": "Bede Skinner-Vennell",
+        "email": "bedesv@gmail.com"
+    },
     "contributes": {
         "languages": [{
             "id": "ar",
