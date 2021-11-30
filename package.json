@@ -1,0 +1,25 @@
+{
+    "name": "AR-Programming-Language",
+    "displayName": "AR Programming Language",
+    "description": "ADTECH AR Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ar",
+            "aliases": ["AR Programming Language", "ar"],
+            "extensions": [".AR",".ar"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ar",
+            "scopeName": "source.AR_Programming_Language",
+            "path": "./syntaxes/ar.tmLanguage"
+        }]
+    }
+}
